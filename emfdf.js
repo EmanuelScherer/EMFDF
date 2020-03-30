@@ -22,7 +22,7 @@
 const inquirer = require('inquirer');
 const dialogflow = require('dialogflow');
 const { PubSub } = require('@google-cloud/pubsub');
-const emfc = require('./emfc');
+const emfc = require('emfc');
 
 //	LETS GERAIS
 let credentials;
