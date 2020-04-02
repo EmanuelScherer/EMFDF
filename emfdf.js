@@ -1227,7 +1227,7 @@ const emfdf = module.exports = {
 				// emfc.PrintError("EMFDF", [{tag: 'Info', print: 'Intenção não pode ser reconhecida'},
 				// 						  {tag: 'Erro', print: err}])
 				
-				throw new ErroIntenção('Intenção '+name+' não pode ser reconhecida', 'DetectIntent('+name+')')
+				throw new ErroIntenção('Intenção não pode ser reconhecida', 'DetectIntent('+Session+","+Input+","+Language+')')
 
 				//console.error(err);
 			});
